@@ -111,10 +111,17 @@ def classify_document(text: str, filename: str = "") -> DocumentClassification:
     """
     user_content = f"Filename: {filename}\n\nDocument content (first 4000 chars):\n{text[:4000]}"
 
+    # cache_control marks the system prompt as cacheable — Anthropic reuses the
+    # KV cache across repeated classify calls with the same system prompt,
+    # cutting classification cost by ~80% on the second and subsequent calls.
     response = _get_client().messages.create(
         model="claude-sonnet-4-6",
         max_tokens=512,
-        system=_CLASSIFICATION_SYSTEM,
+        system=[{
+            "type": "text",
+            "text": _CLASSIFICATION_SYSTEM,
+            "cache_control": {"type": "ephemeral"},
+        }],
         messages=[{"role": "user", "content": user_content}],
     )
 
@@ -157,7 +164,11 @@ def resolve_exception(
     response = _get_client().messages.create(
         model="claude-sonnet-4-6",
         max_tokens=256,
-        system=_EXCEPTION_SYSTEM,
+        system=[{
+            "type": "text",
+            "text": _EXCEPTION_SYSTEM,
+            "cache_control": {"type": "ephemeral"},
+        }],
         messages=[{"role": "user", "content": user_content}],
     )
 
