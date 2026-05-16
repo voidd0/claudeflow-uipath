@@ -1,0 +1,5 @@
+anthropic>=0.55.0
+requests>=2.32.0
+PyMuPDF>=1.24.0
+pdfplumber>=0.11.0
+pytest>=8.0.0

@@ -1,0 +1,50 @@
+SERVICE LEVEL AGREEMENT
+
+This Service Level Agreement ("SLA") is entered into between:
+
+  CloudServices GmbH, a German company ("Provider")
+  TechCorp UK Ltd, a United Kingdom company ("Customer")
+
+Effective Date: March 1, 2026
+
+1. SERVICES
+   Provider agrees to supply the following services to Customer:
+   - Cloud infrastructure hosting on AWS EU-WEST-1
+   - 24/7 monitoring and alerting
+   - Technical support via email and phone (business hours)
+   - Monthly performance reports
+
+2. UPTIME GUARANTEE
+   Provider guarantees 99.5% uptime measured monthly, excluding:
+   - Scheduled maintenance windows (announced 72 hours in advance)
+   - Force majeure events
+   - Customer-caused incidents
+
+3. RESPONSE TIMES
+   - P1 Critical: Response within 15 minutes, resolution within 4 hours
+   - P2 High: Response within 1 hour, resolution within 8 hours
+   - P3 Medium: Response within 4 hours, resolution within 2 business days
+   - P4 Low: Response within 1 business day
+
+4. PENALTIES
+   For each percentage point of uptime below 99.5%, Customer receives a service
+   credit of 5% of the monthly fee, up to a maximum of 30%.
+
+5. LIABILITY CAP
+   Provider's total liability under this agreement shall not exceed the fees paid
+   by Customer in the three (3) months preceding the claim.
+
+6. GOVERNING LAW
+   This SLA shall be governed by German law. Jurisdiction: Berlin, Germany.
+
+7. TERM
+   Initial term: 12 months from Effective Date, with automatic renewal unless
+   terminated with 60 days written notice.
+
+Provider: CloudServices GmbH
+Authorized Representative: Markus Weber, CTO
+Date: March 1, 2026
+
+Customer: TechCorp UK Ltd
+Authorized Representative: Sarah Johnson, COO
+Date: March 1, 2026

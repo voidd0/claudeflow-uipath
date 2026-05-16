@@ -1,0 +1,49 @@
+EMPLOYMENT CONTRACT
+
+This Employment Contract is entered into between:
+
+  vøiddo Ltd, an Israeli company registered under Israeli law ("Employer")
+  Alex Chen ("Employee")
+
+Position: Senior Software Engineer
+Start Date: June 1, 2026
+Location: Remote (Employee's home country)
+
+1. DUTIES
+   Employee shall perform the duties of Senior Software Engineer including:
+   - Designing and implementing software features
+   - Code reviews and mentoring junior engineers
+   - Participating in product planning and technical architecture decisions
+   - Representing the company in open-source communities
+
+2. COMPENSATION
+   - Base salary: $120,000 USD per year, paid monthly
+   - Annual performance bonus: up to 15% of base salary
+   - Equity: 0.25% stock options vesting over 4 years with 1-year cliff
+
+3. WORKING HOURS
+   Employee is expected to work approximately 40 hours per week, with flexible
+   scheduling to accommodate different time zones where required.
+
+4. CONFIDENTIALITY
+   Employee agrees to maintain strict confidentiality of all proprietary
+   information, trade secrets, and business information of the Employer.
+
+5. INTELLECTUAL PROPERTY
+   All work product, inventions, and developments created by Employee during
+   the term of employment are the exclusive property of the Employer.
+
+6. TERMINATION
+   Either party may terminate this agreement with 30 days written notice.
+   The Employer may terminate for cause immediately without notice.
+
+7. GOVERNING LAW
+   This agreement is governed by the laws of Israel.
+
+Employer: vøiddo Ltd
+Authorized Representative: Egor Korner, CEO
+Date: May 1, 2026
+
+Employee: Alex Chen
+Signature: _________________________
+Date: May 1, 2026
